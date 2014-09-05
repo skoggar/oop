@@ -19,14 +19,14 @@ public class Main {
 		
 		if(osoba=="laptop")
 		{
-			System.out.println("Twoja lista komponentow("+osoba+")");
+			System.out.println("Twoja lista komponentow("+osoba+"):");
 		LaptopView raport = new LaptopView(podzespoly);
 		raport.giveProcessor();
 		raport.giveHardDrives();
 		}
 		else if(osoba=="komputer")
 		{
-			System.out.println("Lista podzespo³ów dla twojego komputera("+osoba+")");
+			System.out.println("Twoja lista komponentow("+osoba+"):");
 		DesktopView raport2 = new DesktopView(podzespoly);
 		raport2.giveProcessor();
 		raport2.giveHardDrives();
