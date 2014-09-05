@@ -6,7 +6,6 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		List<Client> allClients = new ArrayList<Client>();
 		List<Order> allOrders = new ArrayList<Order>();
@@ -32,8 +31,6 @@ public class Main {
 			}
 				
 			
-			//System.out.println(allOrders.get(i-1).number);
-			
 			
 		}
 		
@@ -46,7 +43,6 @@ public class Main {
 			
 			allClients.get(i-1).addOrder(allOrders.get(i-1)); //a to po to zeby kazdy klient mial dwa zamowienia
 			
-			//System.out.println(allClients.get(i-1).number);
 		}
 
 		for(int i=1; i<=3; i++)
@@ -56,9 +52,6 @@ public class Main {
 			allClientGroups.get(i-1).addClient(allClients.get(i*2+1));
 			allClientGroups.get(i-1).addClient(allClients.get(i*2+2)); // prawie kazdy klient ma w ten sposób jakąś grupę
 			
-			
-			//System.out.println(allClientGroups.get(i-1).groupName);
-		}
 		
 		
 		ReportMaker report = new ReportMaker(allClients, allOrders, allProducts);
