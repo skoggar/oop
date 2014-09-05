@@ -4,7 +4,7 @@ public abstract class Part {
 	private double price;
 	
 	public String showDetails() {
-		return ("Nazwa: "+ getName() + "Cena : " + getPrice());
+		return ("Nazwa: "+ getName() + "Cena: " + getPrice());
 	}
 	
 
