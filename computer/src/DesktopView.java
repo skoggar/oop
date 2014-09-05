@@ -12,7 +12,7 @@ public class DesktopView {
 
 	public void giveHardDrives()
 	{
-		System.out.println(" Dyski (desktop): ");
+		System.out.println("Dyski: ");
 		for (Part a: db.lista)
 		{
 			if(a instanceof DesktopHardDrive)
@@ -25,7 +25,7 @@ public class DesktopView {
 	
 	public void giveProcessor()
 	{
-		System.out.println(" Procesory (desktop): ");
+		System.out.println("Procesory: ");
 		for (Part a: db.lista)
 		{
 			if(a instanceof DesktopProcessor)

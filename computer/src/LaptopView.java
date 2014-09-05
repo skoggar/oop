@@ -12,7 +12,7 @@ public class LaptopView extends ComputerView {
 
 	public void giveHardDrives()
 	{
-		System.out.println("	Dyski (laptop):");
+		System.out.println("Dyski: ");
 		for (Part a: db.lista)
 		{
 			if(a instanceof LaptopHardDrive)
@@ -25,7 +25,7 @@ public class LaptopView extends ComputerView {
 	
 	public void giveProcessor()
 	{
-		System.out.println("	Procesory (laptop):");
+		System.out.println("Procesory: ");
 		for (Part a: db.lista)
 		{
 			if(a instanceof LaptopProcessor)
