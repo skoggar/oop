@@ -8,14 +8,14 @@ public class Main {
 		PartDb podzespoly = new PartDb();
 
 	
-		podzespoly.addPart(new LaptopProcessor("Intel", 700,2000));
-		podzespoly.addPart(new DesktopProcessor("Intel", 650,2500));
-		podzespoly.addPart(new LaptopHardDrive("Samsung", 300,1000));
-		podzespoly.addPart(new DesktopHardDrive("Samsung", 300,1000));
-		podzespoly.addPart(new LaptopProcessor("AMD", 500,2600));
-		podzespoly.addPart(new DesktopProcessor("AMD", 1200,3500));
-		podzespoly.addPart(new DesktopProcessor("AMD", 1400,3800));
-		podzespoly.addPart(new DesktopHardDrive("Toshiba", 4500,2000));
+		podzespoly.addPart(new LaptopProcessor("Intel SSD", 550,2000));
+		podzespoly.addPart(new DesktopProcessor("Intel HDD", 400,2500));
+		podzespoly.addPart(new LaptopHardDrive("SanDisk SSD", 450,2000));
+		podzespoly.addPart(new DesktopHardDrive("SanDisk HDD", 300,5000));
+		podzespoly.addPart(new LaptopProcessor("Intel i5", 500,2600));
+		podzespoly.addPart(new DesktopProcessor("Intel i7", 1800,3500));
+		podzespoly.addPart(new DesktopProcessor("Intel i3", 1000,3800));
+		podzespoly.addPart(new DesktopHardDrive("Samsung HDD", 4500,2000));
 		
 		if(osoba=="laptop")
 		{
