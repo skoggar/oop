@@ -30,8 +30,7 @@ public class Main {
 				
 			}
 				
-			
-			
+				
 		}
 		
 		for(int i=1; i<=10; i++)
@@ -56,13 +55,7 @@ public class Main {
 		
 		ReportMaker report = new ReportMaker(allClients, allOrders, allProducts);
 		report.showReport();
-		
-
-		
-		
-		
-		
-		
+			
 
 	}
 
